@@ -34,7 +34,7 @@ namespace Dhillan_Gopal_19017017_GADE6112_TASK1A
 		}
 
 		public override string ToString()
-		{
+		{ /// display the 2d tile array
 			string disply = "";
 			for (int y = 0; y < Mclass.height; y++)
 			{
