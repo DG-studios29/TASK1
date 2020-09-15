@@ -10,7 +10,7 @@ namespace Dhillan_Gopal_19017017_GADE6112_TASK1A
 	class MapClass
 	{
 		Random roll = new Random();
-		
+		// assigning the variables.
 		public int width { get; set; }
 		public TileClass[,] Map { get; set; }
 		public EnemyClass[] Enemies { get; set; }
