@@ -5,7 +5,7 @@ namespace Dhillan_Gopal_19017017_GADE6112_TASK1A
 	abstract class CharacterClass : TileClass
 	{
 		public enum Movement
-		{
+		{	// assigning the enums
 			Nomovement,
 			Up,
 			Down,
@@ -70,7 +70,7 @@ namespace Dhillan_Gopal_19017017_GADE6112_TASK1A
 				characterVision = value;
 			}
 		}
-
+			// constu
 		public CharacterClass(int temphp, int tempmaxHP, int tempdamage, TileClass[] tempcharacterVision, int x, int y, tileType typetemp) : base(x, y,typetemp)
 		{
 
